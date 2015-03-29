@@ -1,6 +1,6 @@
+require(shiny)
 source('roll_functions.R')
 
-require(shiny)
 
 shinyServer(
     function(input, output) {
